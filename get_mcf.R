@@ -9,11 +9,11 @@ library(dplyr)
 ga_auth()
 
 # view id of your Google Analytics view
-ga_view  = "46195197"
+ga_view  = ""
 
 # date range
-start_date = "2017-10-01"
-end_date = "2017-10-02"
+start_date = ""
+end_date = ""
 
 # build query
 df = google_analytics(id = ga_view, 
