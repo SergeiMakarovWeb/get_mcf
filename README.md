@@ -11,7 +11,7 @@ For example, run:
 get_mcf(df,c('(direct) / (none)', 'google / cpc'))
 ```
 
-If it possible, it will return the first and last sources/campaigns/keywords without (direct) / (none) and google / cpc.
+If it possible, it returns the first and last sources/campaigns/keywords without (direct) / (none) and google / cpc.
 
 ```
  transactionId  firstSource             lastSource              firstCampaign               lastCampaign        
