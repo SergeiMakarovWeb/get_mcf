@@ -1,4 +1,3 @@
-
 # googleAuthR for fetching  data
 library(googleAnalyticsR)
 # googleAuthR for authorization
@@ -50,7 +49,6 @@ get_mcf = function(df, sources_to_del) {
       lastCampaign = last(campaignPath)
     ) %>% 
     select(transactionId,firstSource,lastSource,firstCampaign,lastCampaign)
-  
   
   df_final2 = anti_join(df_count,df_final1) %>% 
     group_by(transactionId) %>% 
